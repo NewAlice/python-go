@@ -13,3 +13,10 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+# py-bindings executable
+py-bindings/outliers/outliers
+py-bindings/outliers/outliers.exe
+
+# python
+*.pyc
