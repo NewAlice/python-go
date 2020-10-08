@@ -9,7 +9,7 @@ import (
 	"github.com/christian-korneck/go-python3"
 )
 
-//detect wraps around the gen_testdata() function from the given Python module. Borrows the PyObject reference.
+//detect wraps around the detect() function from the given Python module. Borrows the PyObject reference.
 func detect(module *python3.PyObject, data []float64) ([]int, error) {
 
 	pylist := python3.PyList_New(len(data)) //retval: New reference, gets stolen later
